@@ -1,0 +1,37 @@
+{
+  "manifestVersion": 2,
+  "publisher": "faisalmuhammad",
+  "id": "monospace-icons",
+  "name": "Monospace Icons",
+  "version": "1.0.3",
+  "execution": "data",
+  "description": "Monospace file icons for Orca, covering programming languages, documents, images, data files, and configuration files.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "monospace-icons",
+        "title": "Monospace Icons",
+        "path": "icons/theme.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "icon": "images/icon.png",
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Monospace Icons cover showing an explorer and icons for programming languages, documents, images, and data files"
+  },
+  "screenshots": [
+    {
+      "path": "images/explorer.png",
+      "alt": "Rendered preview of 24 file types including programming languages, documents, images, data formats, and tools",
+      "caption": "Rendered preview — languages and everyday file formats",
+      "theme": "dark"
+    }
+  ],
+  "repository": "https://github.com/faisalmuhammad/orca-monospace-icons"
+}

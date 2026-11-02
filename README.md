@@ -16,10 +16,10 @@ Requires **Orca 1.4.245 or newer**.
 2. Choose **Add plugin → From a Git URL…** and enter:
 
    ```text
-   https://github.com/faisalmuhammad/orca-monospace-icons#v1.0.3
+   https://github.com/faisalmuhammad/orca-monospace-icons#v1.0.4
    ```
 
-   Keep `#v1.0.3` at the end. Orca requires a release tag or commit hash to install from Git.
+   Keep `#v1.0.4` at the end. Orca requires a release tag or commit hash to install from Git.
 3. In **Settings → Appearance**, select **Monospace Icons** as the file icon theme.
 
 Use it with your preferred color theme, or pair it with [Monospace Light and Dark](https://github.com/faisalmuhammad/orca-monospace-themes).

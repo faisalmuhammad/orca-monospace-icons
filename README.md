@@ -4,7 +4,7 @@ Familiar files, at a glance.
 
 The original [Monospace](https://github.com/keksiqc/monospace-theme) SVG icons by **Keksi**, curated for [Orca](https://onorca.dev). A consistent set for programming languages, documents, images, data files, and configuration files.
 
-[![Orca 1.4.245+](https://img.shields.io/badge/Orca-1.4.245%2B-a87ffb)](https://onorca.dev) [![153 SVG icons](https://img.shields.io/badge/icons-153%20SVGs-333e4f)](#file-coverage) [![485 mappings](https://img.shields.io/badge/mappings-485-333e4f)](#file-coverage) [![MIT license](https://img.shields.io/badge/license-MIT-17b877)](LICENSE)
+[![Orca 1.4.245+](https://img.shields.io/badge/Orca-1.4.245%2B-a87ffb)](https://onorca.dev) [![153 SVG icons](https://img.shields.io/badge/icons-153%20SVGs-333e4f)](#file-coverage) [![487 mappings](https://img.shields.io/badge/mappings-487-333e4f)](#file-coverage) [![MIT license](https://img.shields.io/badge/license-MIT-17b877)](LICENSE)
 
 ![Monospace Icons showing a variety of languages and file formats — rendered cover](images/cover.png)
 
@@ -16,10 +16,10 @@ Requires **Orca 1.4.245 or newer**.
 2. Choose **Add plugin → From a Git URL…** and enter:
 
    ```text
-   https://github.com/faisalmuhammad/orca-monospace-icons#v1.0.4
+   https://github.com/faisalmuhammad/orca-monospace-icons#v1.0.5
    ```
 
-   Keep `#v1.0.4` at the end. Orca requires a release tag or commit hash to install from Git.
+   Keep `#v1.0.5` at the end. Orca requires a release tag or commit hash to install from Git.
 3. In **Settings → Appearance**, select **Monospace Icons** as the file icon theme.
 
 Use it with your preferred color theme, or pair it with [Monospace Light and Dark](https://github.com/faisalmuhammad/orca-monospace-themes).
@@ -32,7 +32,7 @@ The cover and preview are **rendered illustrations**, not screenshots captured f
 
 ## File coverage
 
-**153 original SVGs · 485 mappings · Generic file and folder fallbacks**
+**153 original SVGs · 487 mappings · Generic file and folder fallbacks**
 
 | Category | Examples |
 | --- | --- |
@@ -40,6 +40,7 @@ The cover and preview are **rendered illustrations**, not screenshots captured f
 | Web formats | HTML, CSS, SCSS, React, Vue, Svelte |
 | Documents and images | Markdown, plain text, PDF, PNG, JPEG, SVG |
 | Data formats | JSON, YAML, XML, CSV, SQL |
+| GraphQL and GraphiQL | `.graphql`, `.gql`, `.graphiql`, and `.graphiql.json` |
 | Scripts and tools | Shell scripts, Dockerfile, package files, lockfiles, configuration files |
 | Compound filenames | TypeScript declarations, test files, and framework-specific suffixes |
 
@@ -54,7 +55,7 @@ Orca's icon format maps filenames and extensions directly to SVG paths. The port
 
 This curated port omits named-folder associations, remaining language-ID associations, light-specific variants, mappings beyond the artifact limit, and the text-only DenizenScript icon that Orca cannot render. Unmapped files use the generic file icon.
 
-The mapping artifact is **16,317 bytes**, below Orca's 16 KiB limit. Mapping and SVG counts stay below 512, and every SVG is below 64 KiB.
+The mapping artifact is **16,384 bytes**, at Orca's 16 KiB limit. Mapping and SVG counts stay below 512, and every SVG is below 64 KiB.
 
 To work on the plugin locally, clone this repository and add its root through **Settings → Plugins → Development folders…**. From a compatible Orca source checkout, validate it with:
 
